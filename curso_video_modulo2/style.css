@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* esse seria a configuraçao global, e para deixar o degrade de cima pra baixo precisa deixar o height 100% e ali aonde ta to right deve estar to top *{
+    height: 100%;
+}*/
+h5{
+    color: palevioletred;
+}
+h5#principal{
+    text-align: center; /*nesse exemplo estamos mostrando como padronizar somente um h5 ou h1 paragrafo ou seja oq for, pois se para diferenciar precisar por um id la no h5 como fizemos nesse ex*/
+    color: #FF0000;
+   background-image: linear-gradient(to right, #00ffff, white);
+  
+}
+ h2{
+     color:  red;   
+ }
+ body{
+    
+     background-image: linear-gradient(to right, white, blue);
+ }
+ h3{
+     background-color: brown;
+ }
+ .basico{
+color: #FF0000;
+ }
+ .intermediario{
+color: blueviolet;
+ }
+ .avancado{
+color: chocolate;
+ }
+ .destaque{
+     background-color: darkgreen;
+ }
+ div{
+     display: inline-block;
+     background-color: crimson;
+     border: 1px solid black;
+     /*alguns exemplos de bordas groove, double,dotted,dashed,*/
+     text-align: center;
+     height: 200px; /*isso aqui seria a altura*/
+     width: 200px; /*isso é largura*/ 
+     padding: 8px 7px 6px 5px; /*se todos os quatro cantos forem tamanhos iguais é só colocar 10px uma vez*/
+     /*isso que fizemos no padding de colocar mais de uma linha tudo em uma só se chama de shortrend*/
+
+     
+ }
+ #d1{
+    color: aqua;
+    background-color: purple;
+}
+div:hover{
+    background-color: darkturquoise; /*nessa parte estamos vendo como deixar uma cor para as div quando passar o mouse sobre ela na tela*/
+}
+div > p{
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: blue;
+    width: 300px;
+}
+div:hover{
+    color: #FF0000;
+}
+a{
+    color: #FF0000;
+    text-decoration: none; /*com isso tira o sublinhado linha de baixo da palavra*/
+}
+a:visited{
+    color: purple; /*nesse aqui estamos colocando a cor roxa para os links ja visitados no site*/
+}
+.personalizado{
+    color: springgreen;
+    margin: auto;
+}
+a:hover{
+    text-decoration: underline; /*aqui quando passar o mouse sobre o link ficara sublinhado*/
+    color: #FF0000;
+}
+a:active{
+    color: yellow; /*esse quando clicamos ou seguramos o mouse fica na cor escolhida*/
+
+}
+a::after{/* o :: after significa que sera posto depois*/
+    content: " [link]";
+    color: antiquewhite;
+}
+a::before{/*o :: before significa que sera posto antes*/
+    content: "é oq vem antes do link >>> ";
+}
+nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
+}
+nav > a {
+    text-decoration: none;
+    color: aqua
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+ main{
+     background-color: white;
+     padding: 10px;
+     margin: 10px;
+ }
+ h6{
+     border: 10px solid black;
+     padding: 10px;
+     border-image-source: url('borda.png');
+     border-image-slice: 30;
+     border-image-repeat:repeat;
+     color: #FF0000;
+ }

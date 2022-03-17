@@ -1,0 +1,25 @@
+@charset "UTF-8";
+        body{
+            background-color: black;
+        }
+        iframe{
+            text-align: center;
+        }
+        a{
+            text-align: center;
+        }
+        img{
+            width: 150px;
+            right: 150px;
+            left: 150px;
+        }
+    p{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+ 
