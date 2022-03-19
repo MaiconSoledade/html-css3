@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid gray;
+        padding: 10px;        
+    }
+    </style>
+</head>
+<body>
+    <h1>Exercicios tabelas</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th> <!--colgroup é quando é mais de uma linha se for uma só fica col-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th><!--rowgroup é quando é mais de uma linha se for uma só fica row-->
+                <td>Ana maria</td>
+                <td>Aliens</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz souza</td>
+                <td>Hulk</td>
+                <td>Thor</td>
+                <td>Homem-aranha</td>
+            </tr>
+            <tr>
+                <td>Fernanda maranhao</td>
+                <td>Mulher maravilha</td>
+                <td>Alerquina</td>
+                <td>Steve Jobs</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno</td>
+                <td>Batman</td>
+                <td>Dr estranho</td>
+                <td>Pantera negra</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Coringa</td>
+                <td>Homem de ferro</td>
+                <td>Demolidor</td>
+            </tr>
+            <tr>
+                <td>Xavier</td>
+                <td>X-men</td>
+                <td>Deadpool</td>
+                <td>Quarteto fantastico</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
